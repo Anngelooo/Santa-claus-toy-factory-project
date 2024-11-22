@@ -1,4 +1,4 @@
-package views;
+package dev.exercise.views;
 
 import java.util.Scanner;
 
@@ -17,10 +17,12 @@ public class HomeView extends view {
         int option = Scanner.nextInt();
 
         if(option == 1) ElfView.index();
+        
 
     }
 
-    
-
+    public static void quit (){
+        HomeView.index();
+    }
     
 }

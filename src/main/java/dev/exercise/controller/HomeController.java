@@ -1,6 +1,6 @@
-package controller;
+package dev.exercise.controller;
 
-import views.HomeView;
+import dev.exercise.views.HomeView;
 
 public class HomeController {
 

@@ -1,4 +1,4 @@
-package views;
+package dev.exercise.views;
 
 import java.util.Scanner;
 
